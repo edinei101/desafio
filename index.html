@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora com botão fujão</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Somar</h2>
+        <input type="number" id="valor1" placeholder="Digite o primeiro valor" oninput="verificarCampos(this)">
+        <input type="number" id="valor2" placeholder="Digite o segundo valor" oninput="verificarCampos(this)">
+        <button id="botaoFujao" onclick="somar()" disabled>Somar</button>
+        <div id="resultado"></div>
+        
+        <audio id="valorInvalidoAudio"></audio>
+        <audio id="botaoAudio"></audio>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
